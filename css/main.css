@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),         
+         url('../fonts/MyriadPro-Regular.woff') format('woff'),
+         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h2{
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-size: 30px;
+    color: #232424;
+    text-transform: uppercase; 
+    padding: 0;
+    margin: 0;
+}
+/*-----------------------------------header---------------------------------*/
+.header{
+    padding: 10px 0;
+    background-color: #000;        
+}
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.connect span{
+    font-family: 'MyriadPro-Regular';
+    font-size: 14px;
+    color: #f9fdff;
+    padding-left: 20px;
+    background: url(../img/telephone.png) no-repeat 0 0;
+    margin-left: 30px; 
+}
+.connect .mail{
+    text-transform: uppercase;
+    background: url(../img/mail.png) no-repeat 0 0;
+}
+.connect a{
+    text-decoration: none;
+}
+/*------------------------------------menu-------------------------------------*/
+.container.about-cefungi{
+    padding: 20px 10px;
+}
+.menu{
+    border-bottom: 1px solid #121314;
+}
+.cefungi h1{
+    font-family: arial, sans-serif;
+    font-size: 48px;
+    color: #232424;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.cefungi p{
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    color: #232424;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+.items-menu{
+    list-style: none;
+}
+.items-menu li{
+    display: inline-block;
+    font-family: 'MyriadPro-Regular';
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 25px;  
+    padding: 10px 5px;
+}
+.items-menu > li:hover{
+    background: #000 url(../img/dropdawn-arrow-hover.png) no-repeat 98% 50%;    
+}
+.items-menu > li:hover, .items-menu > li:hover > a{     
+    color: #fff;  
+    text-decoration: none;    
+}
+.items-menu li a{
+    text-decoration: none;
+    color: #000;
+}
+.items-menu .with-arrow{
+    background: url(../img/dropdawn-arrow.png) no-repeat 98% 50%;
+    padding-right: 12px;
+}
+.items-menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    line-height: 1em;
+    z-index: 99;
+}
+.items-menu ul li{
+    float: none;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.items-menu li:hover ul{
+    display: block;
+}
+.items-menu, .items-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.items-menu li{
+    float: left;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-size: 15px;    
+}
+.items-menu li a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #25262a;
+    text-decoration: none; 
+}
+
+.items-menu ul li a{
+    display: block; 
+    width: 100%;
+    padding: 12px 0 3px 0;
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-size: 16px;
+    text-transform: none;    
+    text-align: left;
+}
+.items-menu ul li a:hover{
+    color: #66aac6;
+    background-color: #fff;
+}
+/*--------------------------what-it-is-----------------------------------*/
+.container.what{
+    padding: 10px;
+    border-bottom: 2px solid #2f2f2f;
+}
+.right-side{
+    width: 590px;
+}
+.right-side span{
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-size: 14px;
+    color: #232424;
+    text-transform: uppercase;
+}
+.right-side p{    
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #232424;
+}
+/*-----------------------method------------------------------*/
+.container.method{
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 2px solid #2f2f2f;
+}
+.container.method p{
+    text-indent: 25px;
+    margin: 15px 0;
+    padding: 0;    
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #232424;
+}
+
+/*--------------------------------contact-with-us-------------------------------------------*/
+
+.container.contact{
+    padding: 7px 0;
+    background-color: #000;    
+}
+.connect-bottom span{
+    font-family: 'MyriadPro-Regular';
+    font-size: 15px;
+    color: #fff;
+    padding-left: 20px;
+    background: url(../img/telephone.png) no-repeat 0 0;
+    margin-left: 15px;
+}
+.connect-bottom :first-child{
+    padding-left: 0;    
+}
+.connect-bottom .contact-to-us{
+    text-transform: uppercase;
+    background: none;
+}
+.connect-bottom .mail{
+    padding-left: 20px;
+    text-transform: uppercase;
+    background: url(../img/mail.png) no-repeat 0 0;
+}
+.connect-bottom a{
+    text-decoration: none;
+}
+
+/*--------------------------teachers-----------------------------*/
+.teachers .container{
+    flex-direction: column;
+}
+.about-classes{
+    width: 75%;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #393939;
+    text-align: center;
+    margin: 10px 0;
+}
+.about-teacher{
+    width: 75%;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #393939;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/*----------------------map----------------------*/
+.map{
+    height: 350px;
+    width: 100%;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+}
+/*------------------footer----------------*/
+.bottom{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #393939;
+}
+
+
+
+
+
+@media (max-width: 950px){
+    .right-side{        
+        margin-left: 15px;
+    }
+    .container{
+        padding: 0 10px;
+    }
+}
+@media (max-width: 700px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .connect{
+        display: flex;       
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .connect span{  
+        margin-left: 0;             
+    }
+    .right-side{
+        width: 75%;
+        text-align: center;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 650px){
+
+}
